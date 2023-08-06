@@ -95,3 +95,130 @@ nav ul li a {
     color: #1c139c;
     font-weight: 800;
 }
+
+/* user-detail-section */
+/* about-section start  */
+.user-detail-section {
+    padding-block: 60px;
+    background-color: #f5f5f5;
+}
+
+.about-sec {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+    padding: 50px;
+    /* justify-content: space-between; */
+    gap: 5%;
+}
+
+.about-sec .user-information-sec {
+    /* border: 2px solid green; */
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+
+}
+
+.about-sec .user-about-sec {
+    /* border: 2px solid yellow; */
+    width: 50%;
+}
+
+.user-photo-basic-details {
+    gap: 40px;
+}
+
+.user-photo-basic-details .user-basic-details {
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+}
+
+.user-photo-basic-details .user-basic-details .title {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.user-photo-basic-details .user-basic-details .title-info {
+    color: #4e4e4e;
+}
+
+.user-information-sec .user-skill-sec {
+    /* flex-direction: column;
+    align-items: start; */
+    /* gap: 20px; */
+    width: 100%;
+    color: #4e4e4e;
+}
+
+.user-information-sec .user-skill-sec .skill-title {
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.user-information-sec .user-skill-sec .pull-right {
+    float: right;
+}
+
+.skill-line {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.user-information-sec .user-skill-sec .progress {
+    background-color: #cde1f8;
+    margin: 0.5rem 0 1.2rem 0;
+    border-radius: 0;
+    height: 0.7rem;
+}
+
+.user-information-sec .user-skill-sec .progress .progress-bar-html {
+    width: 85%;
+    background-color: #007bff;
+    height: 100%;
+}
+
+.user-information-sec .user-skill-sec .progress .progress-bar-css {
+    width: 75%;
+    background-color: #007bff;
+    height: 100%;
+}
+
+.user-information-sec .user-skill-sec .progress .progress-bar-php {
+    width: 50%;
+    background-color: #007bff;
+    height: 100%;
+}
+
+.user-information-sec .user-skill-sec .progress .progress-bar-javascript {
+    width: 90%;
+    background-color: #007bff;
+    height: 100%;
+}
+
+.user-about-sec h2 {
+    font-size: 32px;
+}
+
+.user-about-sec h2::after {
+    content: " ";
+    display: block;
+    width: 20%;
+    height: 3px;
+    background-color: #007bff;
+    margin-top: 5px;
+    margin-bottom: 1.25rem;
+
+}
+
+.user-about-sec p {
+    font-size: 1.25rem;
+    color: #4e4e4e;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* about-section end  */
