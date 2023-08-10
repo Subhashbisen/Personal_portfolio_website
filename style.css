@@ -564,3 +564,133 @@ nav ul li a {
 }
 
 /* testimonials-section end  */
+
+
+/* blog section-start  */
+.blog-section {
+    /* border: 2px solid red; */
+    margin-top: 70px;
+}
+
+.blog-section .blog-title-sec {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blog-section .blog-title-sec h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.blog-section .blog-title-sec p {
+    color: #4e4e4e;
+}
+
+.blog-section .blog-title-sec .blog-line {
+    width: 5%;
+    height: 5px;
+    background-color: #0078ff;
+}
+
+.blog-section-cards {
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.blog-section-cards-box {
+    /* border: 2px solid blue; */
+    width: 36%;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.25rem;
+}
+
+.blog-section-cards-box .card-image {
+    width: 100%;
+    /* height: 30%; */
+}
+
+.blog-section-cards-box .card-image img {
+    width: 100%;
+}
+
+.blog-section-cards .card-body {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -19px;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding-inline: 20px;
+}
+
+.blog-section-cards .card-body .card-category {
+    background-color: #007bff;
+    padding: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.blog-section-cards .card-body h3 {
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
+
+.blog-section-cards .card-body h3:hover {
+    color: #007bff;
+}
+
+.blog-section-cards .card-body p {
+    color: #4e4e4e;
+    text-align: center;
+    line-height: 26px;
+}
+
+.card-footer {
+    border-top: 1px solid rgba(0, 0, 0, .125);
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.card-footer .post-author {
+    gap: 10px;
+}
+
+.card-footer .post-author img {
+    border-radius: 50%;
+    width: 38px;
+}
+
+.card-footer .post-author p {
+    font-size: 17px;
+    color: #4e4e4e;
+    transition: all 0.3s ease;
+}
+
+.card-footer .post-author p:hover {
+    color: #007bff;
+}
+
+.card-footer .post-date {
+    gap: 4px;
+}
+
+.card-footer .post-date i {
+    padding: 2px;
+}
+
+.card-footer .post-date p {
+    padding: 2px;
+    color: #4e4e4e;
+}
+
+/* blog section-end  */
