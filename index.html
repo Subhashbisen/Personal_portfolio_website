@@ -481,6 +481,9 @@
             </div>
         </footer>
     </div>
+
+
+    </div>
     <!-- <div class="height" style="height: 100vh;"></div> -->
     </div>
 
@@ -506,8 +509,36 @@
         });
     </script>
 
+    <!-- //for sticky navbar  -->
+    <script>
+        const nav_header = document.querySelector(".navbarsection");
+        const hero_container = document.querySelector(".hero-container");
 
+        const observer = new IntersectionObserver((entries) => {
+            const ent = entries[0];
+            console.log(ent);
+            ent.isIntersecting == false
+                ? nav_header.classList.add('sticky')
+                : nav_header.classList.remove('sticky');
+            document.hero_container
+        }, {
+            root: null,
+            threshold: 0,
+        });
 
+        observer.observe(hero_container)
+    </script>
+
+    <!-- for responsive navigation  -->
+    <script>
+        const togglebutton = document.getElementById('nav-toggle');
+        const navlinks = document.getElementById('nav-links');
+
+        togglebutton.addEventListener('click', () => {
+            navlinks.classList.toggle('active');
+        })
+
+    </script>
 </body>
 
 </html>
