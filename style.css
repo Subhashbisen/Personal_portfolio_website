@@ -317,3 +317,77 @@ nav ul li a {
 }
 
 /* services-sec end */
+
+
+/* section-counter start */
+.section-counter {
+    /* border: 2px solid red; */
+    position: relative;
+    padding: 8rem 0;
+    background-image: url(./assets/asset\ 20.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+.section-counter .overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background-color: #0078ff;
+}
+
+.section-counter-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    justify-content: space-between;
+}
+
+.section-counter-container .section-counter-items {
+    /* border: 2px solid white; */
+}
+
+.section-counter-items {
+    width: 36%;
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-block: 36px;
+    color: white;
+    position: relative;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-counter-items .counter-cirle {
+    width: 62px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #d4d7db;
+    position: relative;
+    justify-content: center;
+}
+
+.section-counter-items .counter-cirle {
+    color: white;
+    font-size: 2.4rem;
+}
+
+.section-counter-items h2 {
+    font-size: 2rem;
+}
+
+.section-counter-items p {
+    margin-top: -12px;
+    font-weight: bold;
+    /* font-size: 1rem; */
+}
+
+/* section-counter end */
