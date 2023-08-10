@@ -151,15 +151,15 @@
         flex-direction: column;
     }
 
-    .portfolio-section-cards-items{
+    .portfolio-section-cards-items {
         width: 100%;
     }
 
     .blog-section-cards {
-       flex-direction: column;
+        flex-direction: column;
     }
 
-    .blog-section-cards-box{
+    .blog-section-cards-box {
         width: 100%;
     }
 
@@ -180,4 +180,269 @@
         width: 100%;
     }
 
+}
+
+
+/* for max width 913px  */
+@media screen and (max-width: 913px) {
+    .user-photo-basic-details .user-basic-details {
+        font-size: 11px;
+    }
+
+    .user-about-sec p {
+        font-size: 1rem;
+    }
+
+    .service-skills-card {
+        flex-direction: column;
+    }
+
+    .service-cards {
+        width: 100%;
+    }
+
+    .blog-section-cards {
+        flex-direction: column;
+    }
+
+    .blog-section-cards-box {
+        width: 100%;
+    }
+
+
+    .portfolio-section-cards {
+        flex-direction: column;
+    }
+
+    .portfolio-section-cards-items {
+        width: 100%;
+    }
+
+
+}
+
+/* for max width 541px  */
+@media screen and (max-width: 541px) {
+    .intro h2 {
+        font-size: 3rem;
+    }
+
+    .section-counter-container {
+        flex-wrap: wrap;
+    }
+
+    .section-counter-items p {
+        text-align: center;
+    }
+
+    .get-in-touch-sec .get-in-touch-info p {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .get-in-touch-info ul li span {
+        font-size: 0.9rem;
+    }
+}
+
+/* for max width 414px  */
+@media screen and (max-width: 415px) {
+    .user-photo-basic-details {
+        flex-direction: column;
+    }
+
+    .user-photo-basic-details img {
+        width: 100%;
+    }
+
+    .user-photo-basic-details .user-basic-details {
+        font-size: 13px;
+    }
+
+    .about-sec .user-information-sec {
+        gap: 35px;
+        align-items: center;
+    }
+
+    .service-box1 p {
+        padding-inline: 33px;
+        text-align: center;
+    }
+
+    .services-sec .service-box1 .service-line {
+        width: 16%;
+    }
+
+    .portfolio-section-part1 p {
+        padding-inline: 33px;
+        text-align: center;
+    }
+
+
+    .portfolio-line {
+        display: block;
+        width: 12%;
+    }
+
+    .blog-title-sec p {
+        padding-inline: 33px;
+        text-align: center;
+    }
+
+    .blog-section .blog-title-sec .blog-line {
+        width: 12%;
+    }
+
+    .blog-section-cards .card-body h3 {
+        text-align: center;
+    }
+
+    footer {
+        padding-inline: 1rem;
+    }
+}
+
+/* for max width 391px  */
+@media screen and (max-width: 391px) {
+    .navbarsection {
+        margin-inline: 25px;
+    }
+
+    .about-sec {
+        padding-inline: 20px;
+    }
+
+    .user-photo-basic-details {
+        gap: 25px;
+        width: 100%;
+    }
+
+    .user-photo-basic-details .user-basic-details {
+        width: 100%;
+    }
+
+    .user-photo-basic-details .user-basic-details {
+        font-size: 1rem;
+    }
+
+    .testimonials-box-items p {
+        font-size: 1rem;
+    }
+
+    .footer-massege-contact-sec {
+        align-items: center;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .get-in-touch-info ul li span {
+        font-size: 0.7rem;
+    }
+
+    .get-in-touch-info ul li i {
+        font-size: 0.7rem;
+    }
+
+    .social-icon ul li {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* for max width 375x  */
+@media screen and (max-width: 376px) {
+    .user-basic-details p {
+        display: flex;
+        font-size: 0.9rem;
+    }
+
+    .intro h2 {
+        font-size: 2.5rem;
+    }
+
+    .intro span {
+        font-size: 2.3rem;
+    }
+
+    .service-cards h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* for max width 280x  */
+@media screen and (max-width: 281px) {
+    .intro h2 {
+        font-size: 2rem;
+    }
+
+    .intro span {
+        font-size: 1.6rem;
+    }
+
+    .about-sec {
+        margin-inline: 15px;
+    }
+
+    .user-basic-details p {
+        font-size: 0.8rem;
+    }
+
+    .service-skills-card {
+        margin-inline: 15px;
+    }
+
+    .service-cards h2 {
+        font-size: 1.2rem;
+    }
+
+    .portfolio-section-cards {
+        padding-inline: 15px;
+    }
+
+    .portfolio-section-cards .portfolio-section-cards-content .texts p {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .testimonials-box-items p {
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+
+    .blog-section-cards {
+        padding-inline: 15px;
+    }
+
+    .post-date {
+        font-size: 0.9rem;
+    }
+
+    .card-footer .post-author p {
+        font-size: 11px;
+    }
+
+    .contact-section {
+        padding-inline: 10px;
+    }
+
+    .title h2 {
+        font-size: 1.6rem;
+        position: relative;
+    }
+
+    .get-in-touch-sec .get-in-touch-info p {
+        font-size: 1rem;
+    }
+
+    .get-in-touch-info ul li span {
+        font-size: 0.6rem;
+    }
+
+    .portfolio-section-part1 h2 {
+        font-size: 2rem;
+    }
 }
