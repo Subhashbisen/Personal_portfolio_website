@@ -222,3 +222,98 @@ nav ul li a {
 }
 
 /* about-section end  */
+
+/* services-sec start */
+
+.services-sec {
+    margin-top: 60px;
+    /* border: 2px solid red; */
+}
+
+.services-sec .service-box1 {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.services-sec .service-box1 h2 {
+    font-size: 3rem;
+}
+
+.services-sec .service-box1 p {
+    color: #4e4e4e;
+}
+
+.services-sec .service-box1 .service-line {
+    content: " ";
+    display: block;
+    width: 4%;
+    height: 5px;
+    background-color: #007bff;
+    margin-top: 5px;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.service-skills-card {
+    /* border: 2px solid green; */
+    margin-block: 60px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.service-cards {
+    width: 36%;
+    background-color: rgb(255, 255, 255);
+    padding: 2.5rem 1.3rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+
+/* .service-skills-card .service-card1 {
+    border: 2px solid blue;
+} */
+
+.service-cards .service-ico {
+    /* margin-bottom: 1rem; */
+    color: #1e1e1e;
+    padding: 20px;
+    width: 100%;
+}
+
+.service-cards .service-ico .icon-circle {
+    height: 100px;
+    width: 101px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    /* display: block; */
+    align-items: center;
+    justify-content: center;
+    transition: all 500ms ease;
+}
+
+.service-cards p {
+    text-align: center;
+    color: #4e4e4e;
+    line-height: 25px;
+}
+
+.service-ico :hover.icon-circle {
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+    color: #fff;
+}
+
+.service-cards .service-ico .icon-circle i {
+    font-size: 3rem;
+}
+
+/* services-sec end */
