@@ -96,6 +96,11 @@ nav ul li a {
     font-weight: 800;
 }
 
+.navbarsection .nav-toggle{
+    display: none;
+}
+
+
 /* user-detail-section */
 /* about-section start  */
 .user-detail-section {

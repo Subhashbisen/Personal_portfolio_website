@@ -1,0 +1,183 @@
+/* for max widt 1024px */
+
+@media screen and (max-width: 1025px) {
+    /* .hero-container {
+        height: 60vh;
+    } */
+
+    .hero-container {
+        background-image: url(./assets/asset\ 19.jpeg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .navbarsection {
+        justify-content: space-between;
+        margin-inline: 48px;
+    }
+
+    .sticky {
+        margin-inline: 0px;
+        padding-inline: 48px;
+    }
+
+    .user-photo-basic-details .user-basic-details {
+        gap: 22px;
+        font-size: 14px;
+    }
+
+    .about-sec {
+        margin-inline: 48px;
+    }
+
+    .service-skills-card {
+        margin-inline: 48px;
+    }
+
+    .user-photo-basic-details {
+        gap: 21px;
+    }
+
+    .portfolio-section-cards {
+        padding-inline: 48px;
+    }
+
+    .blog-section-cards {
+        padding-inline: 48px;
+    }
+
+    .blog-section-cards .card-body h3 {
+        font-size: 1.3rem;
+    }
+
+    .blog-section-cards .card-body p {
+        text-align: left;
+    }
+
+    card-footer .post-author img {
+        width: 30px;
+    }
+
+    .card-footer {
+        padding: 12px;
+    }
+
+    .card-footer .post-author p {
+        font-size: 14px;
+    }
+
+    .service-cards h2 {
+        font-size: 1.4rem;
+    }
+
+    footer {
+        padding-inline: 4rem;
+    }
+}
+
+/* for max width 769px  */
+@media screen and (max-width: 768px) {
+    .navbarsection .nav-toggle {
+        display: block;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 22%;
+        width: 100%;
+        height: fit-content;
+        padding-block: 20px;
+        transition: 0.5s ease-in-out;
+        z-index: 23;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    nav ul li a {
+        color: black;
+        font-weight: bold;
+    }
+
+    nav ul li {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .navbarsection nav ul {
+        display: block;
+    }
+
+    .sticky {
+        display: none;
+    }
+
+    .about-sec .user-information-sec {
+        width: 100%;
+    }
+
+    .about-sec {
+        flex-wrap: wrap;
+    }
+
+    .about-sec .user-about-sec {
+        width: 100%;
+    }
+
+    .user-photo-basic-details {
+        gap: 60px;
+    }
+
+    .user-photo-basic-details .user-basic-details {
+        font-size: 1rem;
+    }
+
+    .service-cards {
+        width: 100%;
+    }
+
+    .service-skills-card {
+        flex-direction: column;
+    }
+
+    .portfolio-section-cards {
+        flex-direction: column;
+    }
+
+    .portfolio-section-cards-items{
+        width: 100%;
+    }
+
+    .blog-section-cards {
+       flex-direction: column;
+    }
+
+    .blog-section-cards-box{
+        width: 100%;
+    }
+
+    .blog-section-cards .card-body h3 {
+        font-size: 1.7rem;
+        text-align: start;
+    }
+
+    .blog-section-cards .card-body p {
+        text-align: center;
+    }
+
+    .contact-section {
+        flex-direction: column;
+    }
+
+    .contact-section .box {
+        width: 100%;
+    }
+
+}
