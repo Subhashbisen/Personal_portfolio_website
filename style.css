@@ -391,3 +391,111 @@ nav ul li a {
 }
 
 /* section-counter end */
+
+
+/* portfolio-section start */
+.portfolio-section {
+    margin-top: 4rem;
+    /* border: 2px solid blue; */
+}
+
+.portfolio-section-part1 {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio-line {
+    display: block;
+    width: 4%;
+    height: 5px;
+    background-color: #007bff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.portfolio-section-part1 h2 {
+    font-size: 3rem;
+}
+
+.portfolio-section-part1 p {
+    color: #4e4e4e;
+}
+
+.portfolio-section-cards {
+    margin-block: 60px;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.portfolio-section-cards-items {
+    /* border: 2px solid blue; */
+    width: 40%;
+    /* height: 300px; */
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+}
+
+.portfolio-section-cards-items .portfolio-images {
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 75%;
+    display: block;
+    overflow: hidden;
+}
+
+.portfolio-section-cards-items .portfolio-images img {
+    width: 100%;
+    /* height: 100%; */
+    /* transform: scale(1); */
+    transition: all 1s;
+    display: block;
+}
+
+.portfolio-section-cards-items .portfolio-images:hover img {
+    /* transform: scale(1.5); */
+    transform: scale(1.3);
+}
+
+.portfolio-section-cards .portfolio-section-cards-content {
+    /* border: 2px solid green; */
+    width: 100%;
+    /* height: 100%; */
+    padding-block: 1rem;
+    padding-inline: 10px;
+    background-color: white;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.portfolio-section-cards .portfolio-section-cards-content .texts {
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+
+.portfolio-section-cards .portfolio-section-cards-content .texts p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.texts-detail .texts-head {
+    font-size: 12.8px;
+    color: #0078ff;
+}
+
+.texts-detail .date {
+    font-size: 12.8px;
+    color: #4e4e4e;
+}
+
+/* .icon-plus i {
+    font-size: 2.5rem;
+    color: cornflowerblue;
+    cursor: pointer;
+} */
+
+.icon-plus img {
+    width: 46px;
+}
