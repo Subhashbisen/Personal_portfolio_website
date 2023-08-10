@@ -499,3 +499,68 @@ nav ul li a {
 .icon-plus img {
     width: 46px;
 }
+
+
+/* testimonials-section start  */
+.testimonials-section {
+    position: relative;
+    padding: 8rem 0;
+    background-image: url(./assets/asset\ 21.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    /* border: 2px solid red; */
+}
+
+.testimonials-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    background-color: #0078ff;
+}
+
+.testimonials-box {
+    /* border: 2px solid white; */
+    justify-content: center;
+    position: relative;
+}
+
+.testimonials-box-items {
+    justify-content: center;
+    /* border: 2px solid green; */
+    width: 100%;
+}
+
+.testimonials-box-items-contentbox {
+    width: 100%;
+}
+
+.testimonials-box-items {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.testimonials-box-items img {
+    border-radius: 50%;
+}
+
+.testimonials-box-items h3 {
+    color: white;
+}
+
+.testimonials-box-items p {
+    width: 73%;
+    text-align: center;
+    line-height: 31px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* testimonials-section end  */
