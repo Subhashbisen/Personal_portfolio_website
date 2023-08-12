@@ -182,7 +182,6 @@
 
 }
 
-
 /* for max width 913px  */
 @media screen and (max-width: 913px) {
     .user-photo-basic-details .user-basic-details {
@@ -247,16 +246,78 @@
 
 /* for max width 414px  */
 @media screen and (max-width: 415px) {
+    .navbarsection {
+        margin-inline: 23px;
+    }
+
+    .about-sec {
+        margin-inline: 15px;
+    }
+
+    .about-sec {
+        padding-inline: 15px;
+    }
+
+    .user-photo-basic-details {
+        width: 100%;
+    }
+
+    .user-photo-basic-details .user-basic-details {
+        font-size: 1.3rem;
+    }
+
+    .user-information-sec .user-skill-sec .skill-title {
+        font-size: 1.8rem;
+    }
+
+    .about-sec .user-about-sec {
+        width: 100%;
+        margin-top: 14px;
+    }
+
+    .service-skills-card {
+        margin-inline: 20px;
+    }
+
+    .section-counter {
+        padding: 2rem 0;
+    }
+
+    .portfolio-section {
+        margin-top: 2rem;
+    }
+
+    .testimonials-section {
+        position: relative;
+        padding: 3rem 0;
+    }
+
+    footer {
+        padding-block: 3rem;
+    }
+
+    .contact-section {
+        padding-block: 2rem;
+    }
+
+    .portfolio-section-cards {
+        padding-inline: 20px;
+    }
+
+    .blog-section-cards {
+        padding-inline: 20px;
+    }
+
+    .contact-section {
+        padding-inline: 10px;
+    }
+
     .user-photo-basic-details {
         flex-direction: column;
     }
 
     .user-photo-basic-details img {
         width: 100%;
-    }
-
-    .user-photo-basic-details .user-basic-details {
-        font-size: 13px;
     }
 
     .about-sec .user-information-sec {
@@ -305,24 +366,11 @@
 /* for max width 391px  */
 @media screen and (max-width: 391px) {
     .navbarsection {
-        margin-inline: 25px;
+        margin-inline: 15px;
     }
 
     .about-sec {
         padding-inline: 20px;
-    }
-
-    .user-photo-basic-details {
-        gap: 25px;
-        width: 100%;
-    }
-
-    .user-photo-basic-details .user-basic-details {
-        width: 100%;
-    }
-
-    .user-photo-basic-details .user-basic-details {
-        font-size: 1rem;
     }
 
     .testimonials-box-items p {
@@ -357,7 +405,27 @@
 @media screen and (max-width: 376px) {
     .user-basic-details p {
         display: flex;
-        font-size: 0.9rem;
+        font-size: 1.2rem;
+    }
+
+    .user-photo-basic-details {
+        gap: 30px;
+    }
+
+    .about-sec {
+        margin-inline: 10px;
+    }
+
+    .service-skills-card {
+        margin-inline: 10px;
+    }
+
+    .portfolio-section-cards {
+        padding-inline: 10px;
+    }
+
+    .blog-section-cards {
+        padding-inline: 10px;
     }
 
     .intro h2 {
@@ -379,6 +447,55 @@
         font-size: 2rem;
     }
 
+    .navbarsection h2 {
+        font-size: 1rem;
+    }
+
+    .user-detail-section {
+        padding-block: 35px;
+    }
+
+    .user-basic-details p {
+        display: flex;
+        font-size: 0.9rem;
+    }
+
+    .testimonials-section {
+        padding: 3rem 0;
+    }
+
+    .blog-section {
+        margin-top: 40px;
+    }
+
+    footer {
+        padding-block: 2rem;
+    }
+
+    .contact-section {
+        padding-block: 2rem;
+    }
+
+    .about-sec {
+        margin-inline: 10px;
+    }
+
+    .about-sec {
+        padding-inline: 10px;
+    }
+
+    .about-sec {
+        margin-inline: 48px;
+    }
+
+    .about-sec {
+        padding-block: 20px;
+    }
+
+    .navbarsection .nav-toggle {
+        font-size: 1rem;
+    }
+
     .intro span {
         font-size: 1.6rem;
     }
@@ -387,9 +504,9 @@
         margin-inline: 15px;
     }
 
-    .user-basic-details p {
+    /* .user-basic-details p {
         font-size: 0.8rem;
-    }
+    } */
 
     .service-skills-card {
         margin-inline: 15px;
